@@ -1,4 +1,4 @@
-export default function apartmentQuantity(){
+export default function Page(){
     return(
         <div>
             <p>How many apartments are you reserving ?</p>

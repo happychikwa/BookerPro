@@ -1,4 +1,4 @@
-export default function orderSummary(){
+function Page(){
     return(
         <div>
             <table className="orderSummary" >
@@ -18,5 +18,7 @@ export default function orderSummary(){
                 <button>CHECKOUT</button>
             </div>
         </div>
-    )
+    );
 }
+
+export default Page;
