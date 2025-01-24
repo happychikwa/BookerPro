@@ -5,3 +5,16 @@ export type Invoice = {
     checkin_date: string,
     checkout_date: string
 }
+
+export type ApartmentQuantity = {
+    quantity: number
+}
+
+export type CalenderDates = {
+    startDate: Date,
+    endDate: Date
+}
+
+export type ApartmentName = {
+    apartment: string
+}
