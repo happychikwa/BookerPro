@@ -18,7 +18,7 @@ export default function chooseApartment(props){
                         <ul>fully stocked kitched</ul>
                         <ul>Satellite TV; DSTV</ul>
                     </li>
-                    <input type="number" id="fullyfurnished" name="fullyfurnished" min="1" max="4" value="0" step="1"/>
+                    <input type="text" id="fullyfurnished" name="fullyfurnished" />
                     <strong><p>K650</p></strong>
                 </div>
             </div>
@@ -32,7 +32,7 @@ export default function chooseApartment(props){
                         <ul>Shower with geyser</ul>
                         <ul>Satellite TV; DSTV</ul>
                     </li>
-                    <input type="number" id="singleroom" name="singleroom" min="1" max="2" value="0" step="1"/>
+                    <input type="text" id="singleroom" name="singleroom" />
                     <strong><p>K400</p></strong>
                 </div>
             </div>
